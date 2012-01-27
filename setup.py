@@ -13,7 +13,7 @@ setup(
     description = "Library for parsing Protocol Data Units (PDUs) in SMPP protocol",
     license = 'Apache License 2.0',
     packages = find_packages(),
-    long_description=read('README.markdown'),
+    #long_description=read('README.markdown'), # This creates some problems with pip https://github.com/pypa/pip/issues/439
     keywords = "smpp pdu",
     url = "https://github.com/mozes/smpp.pdu",
     py_modules=["smpp.pdu"],
